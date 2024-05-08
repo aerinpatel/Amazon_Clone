@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+/* header */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+/* amajon logo */
+.nav-logo{
+    height: 54px;
+    width: 140px;
+}
+.logo{
+    height: 54px;
+    z-index: 2;
+    width: 100%;
+    background-size: cover;
+    background-image: url("Screenshot 2024-04-12 161458.png");
+}
+
+/* border of box */
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box2 location  */
+.nav-address{
+    /* margin: 10px; */
+    padding: 10px;
+    color: white;
+}
+.line1-add{
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.location{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* search bar */
+.nav-search{
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+    padding: 10px;
+    color: white;
+    width: 700px;
+}
+.search-bar{
+    height: 40px;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+#nav-srcoll{
+    background-color: #f3f3f3;
+    border: 0.001px solid gray;
+    border: none;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+}
+.nav-search-button{
+    background-color: rgb(255, 191, 101);
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.1rem;
+    color: #0f1111;
+    border: none;
+    width: 45px;
+}
+
+/* sign in option */
+#account{
+    font-weight: bold;    
+    color: white; 
+    border: none;
+    font-size: 1rem;
+    background-color: #0f1111;
+}
+.line1{
+    color: white;
+}
+
+/* returns */
+.bob{
+    padding: 9px;
+}
+.orders{
+    font-weight: bold;    
+    color: white; 
+    border: none;
+    font-size: 1rem;
+}
+
+/* cart  */
+.nav-cart{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* header line 2 pannel  */
+.pannel{
+    display: flex;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    font-size: 1rem;
+    background-color: #222f3d;
+}
+.pannel-elements{
+    display: flex;
+    width: 75%;
+}
+.ele{
+    padding: 10px;
+}
+.ment7{
+    font-size: 1.11rem;
+    font-weight: bold;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url("https://m.media-amazon.com/images/I/61P7hqIHrdL._SX3000_.jpg");
+    height: 360px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.hero-comment{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.hero-comment a{
+    text-decoration: none;
+}
+.box{
+    margin-top: 1rem;
+    height: 380px;
+    width: 22%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    padding-left: 1rem;
+}
+.box-text{
+    padding-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+    display: flex;
+    padding-bottom: 1.5rem;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+/* footer */
+
+/* back to top line  */
+.back{
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #37475a;
+    color: white;
+    font-size: .9rem;
+}
+
+.contacts {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222f3d;
+    color: white;
+    font-size: 1.2rem;
+    top: 100px;
+}
+ul a{
+    color: #eee;
+    margin: 10px;
+    font-size: 0.9rem;
+    display: block;
+}
+
+/* end footer  */
+.end-content{
+    background-color: #001e1e;
+    height: 50px;
+    text-align: center;
+    padding: 30px;
+}   
+.content1 a{
+    font-size: 0.85rem;
+    color: white;
+    margin: 10px;
+    
+}
+.content2{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: white;
+    
+}
